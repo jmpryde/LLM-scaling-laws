@@ -1,5 +1,5 @@
 simple math. takes the three power laws in the openai scaling paper (https://arxiv.org/pdf/2001.08361) and lays them out so you can quickly ballpark your own setup and see how 
-much each one of the main contributing factors of model performance (compute, dataset size, model size) is holding your loss back.can also be used to determine whether or not 
+much each one of the main contributing factors of model performance (compute, dataset size, model size) is holding your loss back. can also be used to determine whether or not 
 you suck at writing transformer architecture.
 
 For instance, if you have 0.125 pflop days compute, 1 million tokens of data, and a 14 billion non_embedding parameter model, this program will give you an estimated loss of
